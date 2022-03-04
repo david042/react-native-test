@@ -4,16 +4,16 @@ import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-nativ
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.texto}>METEU ESSA?</Text>
+      <Text style={styles.texto}> Hello World </Text>
       <View style={styles.bloco}>
-        <Text style={styles.textoBloco}>QUE PAPINHO 1</Text>
+        <Text style={styles.textoBloco}> Hello World </Text>
         <TextInput 
           style={styles.input}
           keyboardType="numeric"
       />
     </View>
     <View style={styles.bloco}>
-        <Text style={styles.textoBloco}>QUE PAPINHO 2</Text>
+        <Text style={styles.textoBloco}> Hello World </Text>
         <TextInput 
           style={styles.input}
           keyboardType="numeric"
